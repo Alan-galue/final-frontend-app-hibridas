@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://final-backend-app-hibridas.onrender.com/';
 
 const apiRequest = async (endpoint, options = {}) => {
     const token = localStorage.getItem('token');
