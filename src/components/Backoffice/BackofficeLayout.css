@@ -1,0 +1,44 @@
+.backoffice-layout {
+    display: flex;
+    margin-top: 80px;
+}
+
+.backoffice-sidebar {
+    width: 200px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    min-height: calc(100vh - 80px);
+}
+
+.backoffice-sidebar h2 {
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+.backoffice-sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.backoffice-sidebar nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.backoffice-sidebar nav a:hover {
+    background: rgba(255, 215, 0, 0.2);
+}
+
+.backoffice-sidebar nav a.active {
+    background: rgba(255, 215, 0, 0.3);
+    color: #ffd700;
+}
+
+.backoffice-main {
+    flex: 1;
+    padding: 20px;
+}
+

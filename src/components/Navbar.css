@@ -1,0 +1,79 @@
+.navbar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.2s;
+}
+
+.navbar-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.user-name {
+    color: white;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.btn-logout {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-logout:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.admin-link {
+    background: #ffd700 !important;
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+.admin-link:hover {
+    background: #ffed4e !important;
+}
+
